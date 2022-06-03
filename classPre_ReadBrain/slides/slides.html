@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Nobrainer</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/league.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/tomorrow-night-bright.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Nobrainer
+<font size="6"> 🧠 A robust and validated **neural network tool suite** for imagers</font>
+
+<div align="right"><font size="6"> 👉 Given by Hrz & Xy </font></div>
+
+<div align="right"><font size="6">
+
+👉 Powered by [reveal.js](https://github.com/hakimel/reveal.js)
+
+</font></div>
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+# Information
+<font size="8"> <font color="orange">**What**</font> is it? </font>
+
+1. Introduction 
+2. Blueprints & Plans
+
+</script></section><section data-markdown><script type="text/template">
+
+## Introduction
+
+
+<div align="left"><font size="6">
+With the increasing need for <font color="orange">efficient and robust software</font> offering insight across the diversity of population imaging efforts underway across the BRAIN Initiative and other projects, <font color="orange">Nobrainer</font> comes into our views together with its strong ability in greatly simplifying integrating deep learning into neuroimaging research. As a data-analyzing Python library, the Nobrainer leverages new learning technologies including  many advances in stastical learning which can address many research applications using the extensive and varied data being produced by the projects.The whole project is led by Satrajit GhoshI from MIT.
+</font></div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Blueprints & Plans
+
+<font size="6">
+
+- Aim 1: Basis for data-auto-animate>ate datasets <!-- .element: class="fragment" -->
+    - Bayesian neural network models
+    - Detect fail on input 
+    - Visualization
+- Aim 2: Custom Datasets <!-- .element: class="fragment" -->
+  - Working on private datasets
+    - Bayesian neural network models
+    - Detect fail on input 
+    - Visualization
+- Aim 3: Open Source Maintenance <!-- .element: class="fragment" -->
+  - Engineering problems (with the community)
+    - Maintain the software infrastructure
+    - Improve efficiency
+    - Increase the scalability of our training methods
+
+</font>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+# Follow-up
+<font size="8"> <font color="orange">**Where**</font> is it now? </font>
+
+1. Progress & Outcomes
+2. Deficiency & Improvement
+
+</script></section><section data-markdown><script type="text/template">
+
+## Progress & Outcomes
+
+</script></section><section data-markdown><script type="text/template">
+
+## Deficiency & Improvement
+
+<div><font color="orange">Privacy</font>-preserving quality control problems</div> <!-- .element: class="fragment" -->
+<font size="6">
+
+<div>
+
+Reasons may preclude analyses that pool data to a single site:
+
+> - Privacy concerns for rare disease data
+> - Institutional or IRB policies
+> - Access to local computational
+> - Storage resources
+> - Download capabilities
+> - ... 
+
+</div><!-- .element: class="fragment" -->
+
+<div align="left">
+
+They thought using an average of the gradients weighted by the quality of the respective local <font color="orange">t-SNE</font><font size="4">(Laurens & Geoffrey, 2008)</font> <font color="orange">embeddings</font> might be an alternative solution to their decentralized setting, but it's not clear now.
+
+</div><!-- .element: class="fragment"-->
+
+</font>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+# Assessment
+<font size="8"> <font color="orange"><b>Why</b></font> fund? </font>
+
+
+1. Value
+2. <s>only 1.</s>
+
+</script></section><section data-markdown><script type="text/template"><!--.element: data-transition="fade" data-transition-speed="fast"-->
+
+## Value
+
+<div align="left">
+
+- Unique aspects of this tool include
+  - MB / Fx / Bf / SepN segmentation supported
+  - Combination of limbic regions
+  - Ease-to-use
+  - Self-contained (but easy integration with FS)
+  - Extensive testing
+
+</div>
+
+</script></section><section data-markdown><script type="text/template"><!--.element: data-transition="fade" data-transition-speed="fast"-->
+
+## Value
+
+<div align="left">
+
+- Significance
+  - Significantly improve data analysis and model development efficiency
+  - Share data more easily
+  - Increase reusability of data through greater trust in model outputs
+
+</div>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+# Sum up
+
+</script></section><section data-markdown><script type="text/template">
+
+</script></section></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":800,"margin":0.04,"transition":"convex","slideNumber":true}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
