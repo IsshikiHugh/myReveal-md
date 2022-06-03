@@ -21,6 +21,8 @@ revealOptions:
 
 👉 Powered by [reveal.js](https://github.com/hakimel/reveal.js)
 
+Note: Test note.
+
 </font></div>
 
 <!--s-->
@@ -29,40 +31,59 @@ revealOptions:
 <font size="8"> <font color="orange">**What**</font> is it? </font>
 
 1. Introduction 
-2. Blueprints & Plans
+2. Blueprints & Plan
 
 <!--v-->
 
 ## Introduction
 
-
-<div align="left"><font size="6">
-With the increasing need for <font color="orange">efficient and robust software</font> offering insight across the diversity of population imaging efforts underway across the BRAIN Initiative and other projects, <font color="orange">Nobrainer</font> comes into our views together with its strong ability in greatly simplifying integrating deep learning into neuroimaging research. As a data-analyzing Python library, the Nobrainer leverages new learning technologies including  many advances in stastical learning which can address many research applications using the extensive and varied data being produced by the projects.The whole project is led by Satrajit GhoshI from MIT.
+<div align="left"><font color="grey" size="6">
+With the increasing need for <font color="orange">efficient and robust software</font> offering insight across the diversity of population imaging efforts underway across the BRAIN Initiative and other projects, <font color="orange">Nobrainer</font> comes into our views together with its strong ability in greatly simplifying integrating deep learning into neuroimaging research. As a <font color="orange">data-analyzing Python library</font>, the Nobrainer leverages new learning technologies including  many advances in stastical learning which can address many research applications using the extensive and varied data being produced by the projects. The whole project is led by <font color="orange">Satrajit GhoshI from MIT</font>.
 </font></div>
 
-<!--v-->
+<!--v--><!--.element: data-background-image="./img/FlowChat1.jpg" data-background-size="1000px"-->
+
+<!--v--><!--.element: data-background-image="./img/FlowChat2.png" data-background-size="1000px"-->
+
+<!--v--> 
 
 ## Blueprints & Plans
 
 <font size="6">
 
-- Aim 1: Basis for data-auto-animate>ate datasets <!-- .element: class="fragment" -->
-    - Bayesian neural network models
-    - Detect fail on input 
-    - Visualization
-- Aim 2: Custom Datasets <!-- .element: class="fragment" -->
-  - Working on private datasets
-    - Bayesian neural network models
-    - Detect fail on input 
-    - Visualization
-- Aim 3: Open Source Maintenance <!-- .element: class="fragment" -->
-  - Engineering problems (with the community)
-    - Maintain the software infrastructure
-    - Improve efficiency
-    - Increase the scalability of our training methods
+<div align="left">
+
+Aim 1: Basis for follow-up works
+- Neural network models
+  - Robust & Pre-trained
+  - Scanned from over 65000 individuals
+
+</div><!-- .element: class="fragment" -->
+<div align="left">
+
+Aim 2: Custom Datasets 
+- Working on private datasets
+  - Bayesian neural network models
+  - Detect fail on input 
+  - Visualization
+
+</div><!-- .element: class="fragment" -->
+<div align="left">
+
+Aim 3: Open Source Maintenance 
+- Engineering problems (with the community)
+  - Maintain the software infrastructure
+  - Improve efficiency
+  - Increase the scalability of our training methods
+
+</div><!-- .element: class="fragment" -->
 
 </font>
 
+Note:
+1. 提供神经网络模型
+2. 实现对自定义数据集的适配
+3. 开源维护
 <!--s-->
 
 # Follow-up
@@ -71,9 +92,19 @@ With the increasing need for <font color="orange">efficient and robust software<
 1. Progress & Outcomes
 2. Deficiency & Improvement
 
+Note:
 <!--v-->
 
 ## Progress & Outcomes
+
+<u>01-August-2020</u> to <u>31-July-2023</u>
+
+1. <b>A deep learning <font color="orange">toolbox</font> for automatic segmentation of subcortical limbic structures from MRI images</b> <!-- .element: class="fragment" -->
+2. <font color="grey">Quantification of volumetric morphometry and optical property in the cortex of human cerebellum at micrometer resolution</font> <!-- .element: class="fragment" -->
+3. <b><font color="orange">Mapping</font> the subcortical connectivity of the human default mode network</b> <!-- .element: class="fragment" -->
+4. <font color="grey">Scalable mapping of myelin and neuron density in the human brain with micrometer resolution</font> <!-- .element: class="fragment" -->
+
+Note:
 
 <!--v-->
 
@@ -103,6 +134,15 @@ They thought using an average of the gradients weighted by the quality of the re
 
 </font>
 
+Note:
+### 问题：
+1. 隐私数据的权限和政策问题
+2. 额外的带宽和计算压力
+3. 已有的基于可信站点的做法有一些弊端
+### 解决方案：
+1. 联邦式学习
+2. 两种算法
+3. t-SNE
 <!--s-->
 
 # Assessment
@@ -127,6 +167,13 @@ They thought using an average of the gradients weighted by the quality of the re
 
 </div>
 
+Note:
+乳腺体、天穹、前脑、隔核
+1. 工具出现时是唯一能做乳腺体分割的软件
+2. 边缘区域组合
+3. 易用
+4. 独立性好（但是方便和 Free Suffer 一体）
+5. 广泛的测试
 <!--v--><!--.element: data-transition="fade" data-transition-speed="fast"-->
 
 ## Value
@@ -140,9 +187,11 @@ They thought using an average of the gradients weighted by the quality of the re
 
 </div>
 
+Note:
+1. 增加数据分析和模型开发效率
+2. 云友好的社区协作数据分享
+3. 数据可复用性强
 <!--s-->
 
-# Sum up
-
-<!--v-->
-
+# The end
+Thanks for Listening
