@@ -41,9 +41,8 @@ Note: Test note.
 With the increasing need for <font color="orange">efficient and robust software</font> offering insight across the diversity of population imaging efforts underway across the BRAIN Initiative and other projects, <font color="orange">Nobrainer</font> comes into our views together with its strong ability in greatly simplifying integrating deep learning into neuroimaging research. As a <font color="orange">data-analyzing Python library</font>, the Nobrainer leverages new learning technologies including  many advances in stastical learning which can address many research applications using the extensive and varied data being produced by the projects. The whole project is led by <font color="orange">Satrajit GhoshI from MIT</font>.
 </font></div>
 
-<!--v--><!--.element: data-background-image="./img/FlowChat1.jpg" data-background-size="1000px"-->
-
-<!--v--><!--.element: data-background-image="./img/FlowChat2.png" data-background-size="1000px"-->
+Note:
+Nobrainer 的意义 ： 更高效 更可信  让神经影像学的研究更方便且准确
 
 <!--v--> 
 
@@ -101,10 +100,20 @@ Note:
 
 1. <b>A deep learning <font color="orange">toolbox</font> for automatic segmentation of subcortical limbic structures from MRI images</b> <!-- .element: class="fragment" -->
 2. <font color="grey">Quantification of volumetric morphometry and optical property in the cortex of human cerebellum at micrometer resolution</font> <!-- .element: class="fragment" -->
-3. <b><font color="orange">Mapping</font> the subcortical connectivity of the human default mode network</b> <!-- .element: class="fragment" -->
+3. <font color="grey">Mapping the subcortical connectivity of the human default mode network</font> <!-- .element: class="fragment" -->
 4. <font color="grey">Scalable mapping of myelin and neuron density in the human brain with micrometer resolution</font> <!-- .element: class="fragment" -->
 
 Note:
+
+- 研究进程到了预计的三分之二 ，目前认为已达到了Aim2 与Aim 3 之间。
+- 着重介绍 Tool box 和 subcortical mapping 两个研究
+- 用于从 MRI 图像中自动分割皮层下边缘结构的深度学习工具箱
+
+<!--v--><!--.element: data-background-image="./img/FlowChat1.jpg" data-background-size="1000px"-->
+
+<!--v--><!--.element: data-background-image="./img/FlowChat2.png" data-background-size="1000px"-->
+
+<!--v--><!--.element: data-background-image="./img/fig1.jpg" data-background-size="1000px"-->
 
 <!--v-->
 
