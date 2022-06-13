@@ -109,11 +109,11 @@ Note:
 - 着重介绍 Tool box 和 subcortical mapping 两个研究
 - 用于从 MRI 图像中自动分割皮层下边缘结构的深度学习工具箱
 
-<!--v--><!--.element: data-background-image="./img/FlowChat1.jpg" data-background-size="1000px"-->
+<!--v--><!--.element: data-background-image="https://pic.imgdb.cn/item/62a6feb40947543129af0d67.jpg" data-background-size="1000px"-->
 
-<!--v--><!--.element: data-background-image="./img/FlowChat2.png" data-background-size="1000px"-->
+<!--v--><!--.element: data-background-image="https://pic.imgdb.cn/item/62a6feb40947543129af0d45.png" data-background-size="1000px"-->
 
-<!--v--><!--.element: data-background-image="./img/fig1.jpg" data-background-size="1000px"-->
+<!--v--><!--.element: data-background-image="https://pic.imgdb.cn/item/62a6feb40947543129af0d59.jpg" data-background-size="1000px"-->
 
 <!--v-->
 
