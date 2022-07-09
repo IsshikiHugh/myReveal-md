@@ -108,11 +108,18 @@ int main(){
 
 ## 输出流
 
-```c[1-11|6-9]
+```c[1-19|13-16]
 #ifndef __C_CLASS_HELPER__
 #define __C_CLASS_HELPER__
 
-...
+/****************************************************
+ * C Class Helper 1.0                               *
+ * ------------------------------------------------ *
+ * Github Repository Address:                       *
+ * - https://github.com/IsshikiHugh/C-Class-Helper  *
+ ****************************************************/
+
+/*** Config Part ************************************/
 
 // MODE 0 : Logs will be write to 'CCH_log.txt' file.
 // MODE 1 : Logs will be print to console (colorful for normal terminal).
@@ -201,6 +208,10 @@ void foo(){
 }
 ```
 
+<!--v-->
+
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img7.png)
+
 <!--s-->
 
 # 开关 | Switch
@@ -208,10 +219,6 @@ void foo(){
 > 这一部分中，我们将介绍一些具有文件全局效果的函数
 
 - 受实现原理限制，在多模块编程时，这些开关只会在单一模块中生效！
-
-<!--v-->
-
-![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img7.png)
 
 <!--v-->
 
