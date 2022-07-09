@@ -6,7 +6,7 @@ theme: night
 highlightTheme: tomorrow-night-bright
 revealOptions:
   width: 1520
-  height: 960
+  height: 950
   margin: 0.04
   transition: 'convex'
   slideNumber: true
@@ -150,7 +150,7 @@ int main(){
 void foo(){
   double x = 1.14514;
 
-  printf("This a normal 'printf' message.")
+  printf("This a normal 'printf' message.");
   LOG("This a normal log.");
   
   printf("x = %.2lf", x);
@@ -158,6 +158,9 @@ void foo(){
 }
 
 ```
+<!--v-->
+
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img5.png)
 
 <!--v-->
 
@@ -174,9 +177,13 @@ void foo(){
   SHOW_VAR("%.2lf", doubleX);
   SHOW_VAR("%c", charX);
   // It's ok to print pointer here!
-  SHOW_VAR("%p", intX);
+  SHOW_VAR("%p", &intX);
 }
 ```
+
+<!--v-->
+
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img6.png)
 
 <!--v-->
 
@@ -204,10 +211,14 @@ void foo(){
 
 <!--v-->
 
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img7.png)
+
+<!--v-->
+
 ## 显示开关
 
-- 使用 <font color="cyan">SET_CCH_SHOW(0);</font> 来关闭日志输出；
-- 使用 <font color="cyan">SET_CCH_SHOW(1);</font> 来打开日志输出；
+- 使用 <font color="cyan">SET_CCH_SHOW(<font color="pink">*0*</font>);</font> 来关闭日志输出；
+- 使用 <font color="cyan">SET_CCH_SHOW(<font color="pink">*1*</font>);</font> 来打开日志输出；
 - 默认情况下，输出都是打开的；
 
 ```c[2|4-5|7-8]
@@ -221,6 +232,10 @@ void foo(){
   LOG("(QWQ) I can be seen!");
 }
 ```
+
+<!--v-->
+
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img3.png)
 
 <!--v-->
 
@@ -241,3 +256,7 @@ void foo(){
   LOG("Normal mode here!");
 }
 ```
+
+<!--v-->
+
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img4.png)
