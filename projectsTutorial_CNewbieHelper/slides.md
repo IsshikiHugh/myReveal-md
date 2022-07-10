@@ -1,5 +1,5 @@
 ---
-title: C Class Helper Tutorial
+title: C Newbie Helper Tutorial
 separator: <!--s-->
 verticalSeparator: <!--v-->
 theme: night
@@ -12,15 +12,15 @@ revealOptions:
   slideNumber: true
 ---
 
-# 𝓒 𝓒𝓵𝓪𝓼𝓼 𝓗𝓮𝓵𝓹𝓮𝓻
+# 𝓒 𝓝𝓮𝔀𝓫𝓲𝓮 𝓗𝓮𝓵𝓹𝓮𝓻
 
 <font size="6"> < 面向 C 语言学习新手的日志打印工具 > </font>
 
-<font size="16"> CCH 1.0 使用简明教程 </font>
+<font size="16"> CNH 1.0 使用简明教程 </font>
 
 <div align="right"><font size="6"> 
 
-👉 GitHub [address](https://github.com/IsshikiHugh/C-Class-Helper)
+👉 GitHub [address](https://github.com/IsshikiHugh/C-Newbie-Helper)
 
 </font></div>
 
@@ -37,7 +37,7 @@ Note: Test note.
 
 ## 目录
 
-> 该 slides 仅包括 CCH 的部分基础功能
+> 该 slides 仅包括 CNH 的部分基础功能
 
 1. 导入
 2. 设置
@@ -56,17 +56,17 @@ Note: Test note.
 
 > 您可以使用以下两种方法来将该工具应用与您的代码：
 
-- 直接将 [ <font color="yellow">`CClassHelper.h`</font> ] 中的**所有**内容直接**复制**到您代码的**开头**
-- 作为模块接口，使用 [ <font color="cyan">`#include "CClassHelper.h"`</font> ] 导入
+- 直接将 [ <font color="yellow">`CNewbieHelper.h`</font> ] 中的**所有**内容直接**复制**到您代码的**开头**
+- 作为模块接口，使用 [ <font color="cyan">`#include "CNewbieHelper.h"`</font> ] 导入
 
 <!--v-->
 
-#### 直接将 [ <font color="yellow">`CClassHelper.h`</font> ] 中的**所有**内容直接**复制**到您代码的**开头**
+#### 直接将 [ <font color="yellow">`CNewbieHelper.h`</font> ] 中的**所有**内容直接**复制**到您代码的**开头**
 
 ```c[6-13|1-4|1-13]
-#ifndef __C_CLASS_HELPER__
-#define __C_CLASS_HELPER__
-// 这些都是'CClassHelper.h'中的内容
+#ifndef __C_Newbie_HELPER__
+#define __C_Newbie_HELPER__
+// 这些都是'CNewbieHelper.h'中的内容
 #endif
 
 #include <stdio.h>
@@ -79,17 +79,17 @@ int main(){
 
 <!--v-->
 
-#### 作为模块接口，使用 [ <font color="cyan">`#include "CClassHelper.h"`</font> ] 导入
+#### 作为模块接口，使用 [ <font color="cyan">`#include "CNewbieHelper.h"`</font> ] 导入
 
 ```md[1-4|2-2]
 # Make sure the files have the following structure.
 
-┣   CClassHelper.h
+┣   CNewbieHelper.h
 ┗   YourCode.c
 ```
   
 ```c[2-7|1-1|1-7]
-#include "CClassHelper.h"
+#include "CNewbieHelper.h"
 #include <stdio.h>
 
 int main(){
@@ -109,22 +109,22 @@ int main(){
 ## 输出流
 
 ```c[1-19|13-16]
-#ifndef __C_CLASS_HELPER__
-#define __C_CLASS_HELPER__
+#ifndef __C_NEWBIE_HELPER__
+#define __C_NEWBIE_HELPER__
 
 /****************************************************
- * C Class Helper 1.0                               *
+ * C Newbie Helper 1.0                              *
  * ------------------------------------------------ *
  * Github Repository Address:                       *
- * - https://github.com/IsshikiHugh/C-Class-Helper  *
+ * - https://github.com/IsshikiHugh/C-Newbie-Helper *
  ****************************************************/
 
 /*** Config Part ************************************/
 
-// MODE 0 : Logs will be write to 'CCH_log.txt' file.
+// MODE 0 : Logs will be write to 'CNH_log.txt' file.
 // MODE 1 : Logs will be print to console (colorful for normal terminal).
 // MODE 2 : Logs will be print to console (colorless but fine for CMD).
-#define CCH_MODE 2
+#define CNH_MODE 2
 
 ...
 
@@ -132,9 +132,9 @@ int main(){
 
 <font size="6">
 
-- 如果你对命令行<font color="orange">毫无了解</font>，那么请检查 <font color="cyan">CCH_MODE</font> 被设置为 <font color="cyan">2</font> ；
-- 如果你的日志将会被打印在常规的 <font color="orange">Terminal</font> 上，那么我们推荐你设置 <font color="cyan">CCH_MODE</font> 为 <font color="cyan">1</font> ；
-- 如果你希望你的日志内容不被打印，而是输出到<font color="orange">文件</font>中，则可以设置 <font color="cyan">CCH_MODE</font> 为 <font color="cyan">0</font> ，但是请注意，CCH 无法清空输出文件，请在每次输出的时候手动清理 <font color="yellow">CCH_log.txt</font> ；
+- 如果你对命令行<font color="orange">毫无了解</font>，那么请检查 <font color="cyan">CNH_MODE</font> 被设置为 <font color="cyan">2</font> ；
+- 如果你的日志将会被打印在常规的 <font color="orange">Terminal</font> 上，那么我们推荐你设置 <font color="cyan">CNH_MODE</font> 为 <font color="cyan">1</font> ；
+- 如果你希望你的日志内容不被打印，而是输出到<font color="orange">文件</font>中，则可以设置 <font color="cyan">CNH_MODE</font> 为 <font color="cyan">0</font> ，但是请注意，CNH 无法清空输出文件，请在每次输出的时候手动清理 <font color="yellow">CNH_log.txt</font> ；
 
 </font>
 
@@ -167,13 +167,13 @@ void foo(){
 ```
 <!--v-->
 
-![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img5.png)
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Newbie-Helper/main/img/img5.png)
 
 <!--v-->
 
 ## 变量监控 | SHOW_VAR
 
-- 使用 <font color="cyan">SHOW_VAR(<font color="grey">*CCH_TYPE*<font color="cyan">, </font>*CCH_VAR*</font>)</font> 来监控变量：
+- 使用 <font color="cyan">SHOW_VAR(<font color="grey">*CNH_TYPE*<font color="cyan">, </font>*CNH_VAR*</font>)</font> 来监控变量：
 
 ```c[5-7|8-9]
 void foo(){
@@ -190,13 +190,13 @@ void foo(){
 
 <!--v-->
 
-![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img6.png)
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Newbie-Helper/main/img/img6.png)
 
 <!--v-->
 
 ## 数组监控 | SHOW_ARR
 
-- 使用 <font color="cyan">SHOW_ARR(</font><font color="grey">*CCH_TYPE*</font><font color="cyan">, </font><font color="grey">*CCH_ARR_NAME*</font><font color="cyan">, </font><font color="grey">*CCH_ARR_BEGIN*</font><font color="cyan">, </font><font color="grey">*CCH_ARR_END*</font><font color="cyan">) </font>来监控数组：
+- 使用 <font color="cyan">SHOW_ARR(</font><font color="grey">*CNH_TYPE*</font><font color="cyan">, </font><font color="grey">*CNH_ARR_NAME*</font><font color="cyan">, </font><font color="grey">*CNH_ARR_BEGIN*</font><font color="cyan">, </font><font color="grey">*CNH_ARR_END*</font><font color="cyan">) </font>来监控数组：
 
 ```c[3-4|5-6]
 void foo(){
@@ -210,7 +210,7 @@ void foo(){
 
 <!--v-->
 
-![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img7.png)
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Newbie-Helper/main/img/img7.png)
 
 <!--s-->
 
@@ -224,46 +224,46 @@ void foo(){
 
 ## 显示开关
 
-- 使用 <font color="cyan">SET_CCH_SHOW(<font color="pink">*0*</font>);</font> 来关闭日志输出；
-- 使用 <font color="cyan">SET_CCH_SHOW(<font color="pink">*1*</font>);</font> 来打开日志输出；
+- 使用 <font color="cyan">SET_CNH_SHOW(<font color="pink">*0*</font>);</font> 来关闭日志输出；
+- 使用 <font color="cyan">SET_CNH_SHOW(<font color="pink">*1*</font>);</font> 来打开日志输出；
 - 默认情况下，输出都是打开的；
 
 ```c[2|4-5|7-8]
 void foo(){
   LOG("(QWQ) I can be seen!");
 
-  SET_CCH_SHOW(0);
+  SET_CNH_SHOW(0);
   LOG("(QAQ) I can't be seen!");
 
-  SET_CCH_SHOW(1);
+  SET_CNH_SHOW(1);
   LOG("(QWQ) I can be seen!");
 }
 ```
 
 <!--v-->
 
-![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img3.png)
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Newbie-Helper/main/img/img3.png)
 
 <!--v-->
 
 ## 简洁模式开关
 
-- 使用 <font color="cyan">SET_CCH_BRIEF_MODE(<font color="pink">*1*</font>);</font> 来打开简洁模式；
-- 使用 <font color="cyan">SET_CCH_BRIEF_MODE(<font color="pink">*0*</font>);</font> 来打开简洁模式；
+- 使用 <font color="cyan">SET_CNH_BRIEF_MODE(<font color="pink">*1*</font>);</font> 来打开简洁模式；
+- 使用 <font color="cyan">SET_CNH_BRIEF_MODE(<font color="pink">*0*</font>);</font> 来关闭简洁模式；
 - 默认情况下，简洁模式是关闭的；
 
 ```c[2|4-5|7-8]
 void foo(){
   LOG("Normal mode here!");
 
-  SET_CCH_BRIEF_MODE(1);
+  SET_CNH_BRIEF_MODE(1);
   LOG("Brief mode here!");
 
-  SET_CCH_BRIEF_MODE(0);
+  SET_CNH_BRIEF_MODE(0);
   LOG("Normal mode here!");
 }
 ```
 
 <!--v-->
 
-![](https://raw.githubusercontent.com/IsshikiHugh/C-Class-Helper/main/img/img4.png)
+![](https://raw.githubusercontent.com/IsshikiHugh/C-Newbie-Helper/main/img/img4.png)
