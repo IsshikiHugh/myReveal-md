@@ -1,18 +1,9 @@
 /**
- * Modified from: https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css
- * Modified by IsshikiHugh 
- * Color scheme: https://colorhunt.co/palette/65647c8b7e74c7bca1f1d3b3
- *               https://colorhunt.co/palette/fff8ea9e7676815b5b594545
- *               https://colorhunt.co/palette/ede4e0c8dbbe9f8772665a48
- *               https://colorhunt.co/palette/e3c770fecd70ffae6df3e0b5
- * 
- * Original description from `puzzle.css`:
- *  * A simple theme for reveal.js presentations, similar
- *  * to the default theme. The accent color is darkblue.
- *  *
- *  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
- *  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
  *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 @import "http://fonts.googleapis.com/css?family=Roboto:400,300,500";
 @import "http://fonts.googleapis.com/css?family=Roboto+Slab:400,700";
@@ -20,38 +11,36 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-color: #FFF8EA;
+  background-color: #fff;
   counter-reset: section; }
   body > a {
-    color: #65647C; }
+    color: #444; }
 
 .reveal {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: 300;
-  color: #65647C; }
+  color: #444; }
 
 .reveal.has-dark-background {
   color: #fff; }
 
 ::selection {
   color: #fff;
-  background: #C8DBBE;
+  background: #69B978;
   text-shadow: none; }
 
 .reveal .slides > section,
 .reveal .slides > section > section {
   line-height: 1.3;
-  font-weight: inherit; 
-  text-align: left;}
+  font-weight: inherit; }
 
 /*********************************************
  * HEADERS
  *********************************************/
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  text-align: left;
   margin: 0 0 2.5rem 0;
-  color: #65647C;
+  color: #444;
   font-family: "Roboto Slab", serif;
   font-weight: normal;
   line-height: 1.2;
@@ -64,15 +53,12 @@ body {
   color: #fff; }
 
 .reveal h1 {
-  color: #594545;
-  font-size: 6rem; }
+  font-size: 5rem; }
 
 .reveal h2 {
-  color: #815B5B;
-  font-size: 4.5rem; }
+  font-size: 3.5rem; }
 
 .reveal h3 {
-  color: #9F8772;
   font-size: 3rem; }
 
 .reveal h4 {
@@ -85,14 +71,8 @@ body {
  * OTHER
  *********************************************/
 .reveal p {
-  text-align: left;
-  color: #65647C;
-  font-size: 2rem;
-  margin: 0.25rem 0;
-  line-height: 1.1; }
-.reveal li {
-  font-size: 2rem;
-}
+  margin: 2.5rem 0;
+  line-height: 1.3; }
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
@@ -224,7 +204,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #E3C770;
+  color: #333;
   text-decoration: none;
   background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.3) 50%);
   background-repeat: repeat-x;
@@ -235,7 +215,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #FECD70;
+  color: #111;
   text-shadow: none;
   border: none; }
 
@@ -256,7 +236,7 @@ body {
 .reveal section img.thumbnail {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #65647C;
+  border: 4px solid #444;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal a img {
@@ -374,8 +354,8 @@ section.intro.past {
 
 .reveal .slide-background.master05 {
   background: url('data:image/svg+xml;utf8,<svg width="178" height="208" viewBox="0 0 178 208" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="M177.84-.22V207.4L73.9 103.6 177.83-.23" fill="#2C97A6"/><path d="M104.33 73.19L30.83-.23h147l-73.5 73.4" fill="#61B44B"/><path d="M52.36 125.1L.38 73.2l51.98-51.92 51.97 51.9-51.97 51.9" fill="#46BCC0"/></g></svg>') top right, url('data:image/svg+xml;utf8,<svg width="208" height="208" viewBox="0 0 208 208" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="M.07-.22H207.5l-103.7 103.8L.06-.2" fill="#46BCC0"/><path d="M.08 103.6V-.23l51.85 51.9-51.85 51.9" fill="#2C97A6"/><path d="M51.93 155.5L.08 207.4V103.6l51.85-51.92V155.5" fill="#61B44B"/></g></svg>') top left;
-  background-color: #C8DBBE;
+  background-color: #69B978;
   background-repeat: no-repeat; }
 
 .master05.intro h1:before, .master05.intro h2:before, .master05.intro h3:before {
-  color: #C8DBBE; }
+  color: #69B978; }

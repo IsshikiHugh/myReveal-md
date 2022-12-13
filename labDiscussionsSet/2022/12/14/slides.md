@@ -1,8 +1,9 @@
 ---
-title: Page Title Here
+title: xy's Weekly Report
 separator: <!--s-->
 verticalSeparator: <!--v-->
-theme: IroBright.css
+theme: simple
+css: IroBright.css
 highlightTheme: tomorrow-night-bright
 revealOptions:
   margin: 0.04
@@ -28,7 +29,11 @@ Note: Test note.
 
 <!--v-->
 
-
+- 《计算机视觉导论》Lec04 · 复习 & 笔记整理
+  - [Lecture 4 | Model Fitting and Optimization - Isshiki修's Notebook (isshikih.top)](https://note.isshikih.top/cour_note/D2QD_Intro2CV/Lec04/)
+- 《计算机视觉导论》Lec05 · 学习 & 笔记草稿
+  - [Lecture 5 | Feature Matching and Motion Estimation - Isshiki修's Notebook (isshikih.top)](https://note.isshikih.top/cour_note/D2QD_Intro2CV/Lec05/)
+- 浏览 ACTOR 论文的大致内容
 
 <!--s-->
 
@@ -50,7 +55,9 @@ Note: Test note.
 
 <!--v-->
 
-
+- 复习整理 Intro2CV Lec05 的笔记
+- 继续看 ACTOR 论文
+- 重心逐渐倾向复习课内内容
 
 
 <!--s-->

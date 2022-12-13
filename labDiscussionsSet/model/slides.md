@@ -2,7 +2,8 @@
 title: Page Title Here
 separator: <!--s-->
 verticalSeparator: <!--v-->
-theme: IroBright.css
+theme: simple
+css: IroBright.css
 highlightTheme: tomorrow-night-bright
 revealOptions:
   margin: 0.04

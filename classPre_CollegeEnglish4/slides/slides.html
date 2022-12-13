@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Page Title Here</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/tomorrow-night-bright.css" />
+
+    <link rel="stylesheet" href="./_assets/IroBright.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Longevity
+
+### ~ `Blessings` or `Woes` ~
+
+👉 Given by G9
+
+👉 Powered by [reveal.js](https://github.com/hakimel/reveal.js)
+
+<aside class="notes"><p>Test note.</p>
+</aside></script></section><section ><section data-markdown><script type="text/template">
+
+# Intro
+
+------
+
+The earliest&simplest pursuit of human beings.
+
+</script></section><section data-markdown><script type="text/template">
+
+### Attempts to be immortality(live forever)
+
+1. <div>(Chinese) Elixir</div><!-- .element: class="fragment" -->
+2. <div>(Chinese) Taoism, internal&external alchemy, qi, bigu...</div><!-- .element: class="fragment" -->
+3. <div>(European) <u>Encyclopedia Britannica</u>: "Those who have both talent and morality will live forever in a golden temple."</div><!-- .element: class="fragment" -->
+4. <div>...</div><!-- .element: class="fragment" -->
+
+<aside class="notes"></aside></script></section><section data-markdown><script type="text/template">
+
+## Longevity may be closing!
+
+</script></section><section data-markdown><script type="text/template">
+
+### The achievement of science
+
+1. <div>🚑 The gradual improvement of the medical system.</div><!-- .element: class="fragment" -->
+2. <div>🧬 Gene technology</div><!-- .element: class="fragment" -->
+3. <div>🥶 Cryonics(frozen human)</div><!-- .element: class="fragment" -->
+4. <div>...</div><!-- .element: class="fragment" -->
+
+</script></section><section data-markdown><script type="text/template">
+
+```
+Longevity = UNKNOWN ? Blessings : Woes;
+```
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+# Advantages
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+# Disadvantages
+
+</script></section><section  data-markdown><script type="text/template">
+
+# Closing Arguments
+
+</script></section><section  data-markdown><script type="text/template">
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":800,"margin":0.04,"transition":"convex","slideNumber":true}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
