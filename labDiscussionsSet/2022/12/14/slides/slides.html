@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>xy's Weekly Report</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/tomorrow-night-bright.css" />
+
+    <link rel="stylesheet" href="./_assets/IroBright.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Weekly Report
+------
+### 2022/12/8 - 2022/12/14
+
+
+👉 Given by xy
+
+👉 Powered by [reveal.js](https://github.com/hakimel/reveal.js)
+
+<aside class="notes"><p>Test note.</p>
+</aside></script></section><section ><section data-markdown><script type="text/template">
+
+# 本周进展
+------
+
+</script></section><section data-markdown><script type="text/template">
+
+- 《计算机视觉导论》Lec04 · 复习 & 笔记整理
+  - [Lecture 4 | Model Fitting and Optimization - Isshiki修's Notebook (isshikih.top)](https://note.isshikih.top/cour_note/D2QD_Intro2CV/Lec04/)
+- 《计算机视觉导论》Lec05 · 学习 & 笔记草稿
+  - [Lecture 5 | Feature Matching and Motion Estimation - Isshiki修's Notebook (isshikih.top)](https://note.isshikih.top/cour_note/D2QD_Intro2CV/Lec05/)
+- 浏览 ACTOR 论文的大致内容
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+# 学习疑惑与困难
+------
+
+</script></section><section data-markdown><script type="text/template">
+
+## Q1: Lec05 - Image changes and view changes
+
+<aside class="notes"><p>课程中提到的一系列关于 detection 的技术，讨论 detector 的 response 在不同的变换（亮度、对比度、几何变换等）中的不变性(是否 repeatable)，是否是基于视角变化较小时候可以近似为这些变换？
+因为我感觉大部分这个问题的对应都应该是视角变化比较多，似乎单纯的 image changes 的场景比较少？</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Q2: 前置知识优点缺
+
+<aside class="notes"><p>在看 ACTOR 的时候高频看到了 Transformer 和 VAE 的内容，感觉因为这部分知识的缺乏，整片文章看的有点头大，所以打算接下来还是先补一下 ML 的东西再继续。</p>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
+
+# 下周计划
+------
+
+</script></section><section data-markdown><script type="text/template">
+
+- 复习整理 Intro2CV Lec05 的笔记
+- 看花书，跟着做一点小的 ML 实践
+- 重心逐渐倾向复习课内内容
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+# End</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"margin":0.04,"transition":"convex","slideNumber":true}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
