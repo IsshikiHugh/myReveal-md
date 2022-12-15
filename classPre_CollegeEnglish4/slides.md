@@ -65,11 +65,6 @@ Longevity = UNKNOWN ? Blessings : Woes;
 
 # Advantages
 
-
-<!--s-->
-
-# Disadvantages
-
 <!--v-->
 
 ### Economy
@@ -87,6 +82,11 @@ Longevity = UNKNOWN ? Blessings : Woes;
 
 - <div>highest LFPR</div><!-- .element: class="fragment" -->
 - <div>social management</div><!-- .element: class="fragment" -->
+
+<!--s-->
+
+# Disadvantages
+
 
 <!--s-->
 
