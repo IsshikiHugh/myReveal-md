@@ -12,7 +12,7 @@ revealOptions:
   transition: 'convex'
   slideNumber: true
 ---
- 
+
 # Longevity
 
 ### ~ `Blessings` or `Woes` ~
@@ -69,6 +69,24 @@ Longevity = UNKNOWN ? Blessings : Woes;
 <!--s-->
 
 # Disadvantages
+
+<!--v-->
+
+### Economy
+
+------
+
+- <div>silver economy</div><!-- .element: class="fragment" -->
+- <div>lower interest rates and inflation</div><!-- .element: class="fragment" -->
+
+<!--v-->
+
+### Society
+
+------
+
+- <div>highest LFPR</div><!-- .element: class="fragment" -->
+- <div>social management</div><!-- .element: class="fragment" -->
 
 <!--s-->
 
