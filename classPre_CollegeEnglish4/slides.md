@@ -87,6 +87,23 @@ Longevity = UNKNOWN ? Blessings : Woes;
 
 # Disadvantages
 
+<!--v-->
+
+### macro perspective
+
+- <div>population aging</div><!-- .element: class="fragment" -->
+
+- <div>public finance</div><!-- .element: class="fragment" -->
+
+- <div>being conservative</div><!-- .element: class="fragment" -->
+
+<!--v-->
+
+### micro perspective
+
+- <div>more burdens on individuals</div><!-- .element: class="fragment" -->
+
+- <div>disease</div><!-- .element: class="fragment" -->
 
 <!--s-->
 
