@@ -107,6 +107,24 @@ Longevity = UNKNOWN ? Blessings : Woes;
 
 <!--s-->
 
-# Closing Arguments
+# Summary
+
+From a dialectical vision...
+
+<!--v-->
+
+### Today’s View
+
+May not be desirable
+
+<!--v-->
+
+### Future's View
+
+May be different
 
 <!--s-->
+
+
+
+## Thank you!
