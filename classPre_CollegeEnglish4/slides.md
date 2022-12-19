@@ -21,7 +21,9 @@ revealOptions:
 
 👉 Powered by [reveal.js](https://github.com/hakimel/reveal.js)
 
-Note: Test note.
+Note: 
+
+Hello everyone! We are group 9, and it's a pleasure to do our presentation here. And our topic is longevity.
 
 <!--s-->
 
@@ -30,6 +32,10 @@ Note: Test note.
 ------
 
 The earliest&simplest pursuit of human beings.
+
+Note: 
+
+Longevity is the earliest&simplest pursuit(优) of human beings.
 
 <!--v-->
 
@@ -41,6 +47,8 @@ The earliest&simplest pursuit of human beings.
 4. <div>...</div><!-- .element: class="fragment" -->
 
 Notes:
+
+And human beings have tried a lot to accompish this goal. For example, [SPACE] elixir is famous in China, which we called "长生不老药". [SPACE] And other things like internal&external alchemy(奥克米) and so on. [SPACE] Also in Europe, there is some sayings about immortality. All these can be seen that the people's desire for longevity.
 
 <!--v-->
 
@@ -55,11 +63,19 @@ Notes:
 3. <div>🥶 Cryonics(frozen human)</div><!-- .element: class="fragment" -->
 4. <div>...</div><!-- .element: class="fragment" -->
 
+Notes:
+
+Developments in science and technology improve the feasibility of longevity nowadays. [SPACE] The gradual improvement of the medical system. [SPACE] Or maybe gene technology, [SPACE] or even cryonics. Longevity is getting closer.
+
 <!--v-->
 
 ```
 Longevity = UNKNOWN ? Blessings : Woes;
 ```
+
+Notes:
+
+But, does longevity really what we want? Blessings or woes? Let's go on!
 
 <!--s-->
 
