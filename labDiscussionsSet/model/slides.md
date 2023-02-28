@@ -7,7 +7,7 @@ css: IroBright.css
 highlightTheme: tomorrow-night-bright
 revealOptions:
   margin: 0.04
-  transition: 'convex'
+  transition: 'slide'
   slideNumber: true
 ---
 
