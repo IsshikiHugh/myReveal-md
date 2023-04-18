@@ -11,6 +11,7 @@
 - https://isshikihugh.github.io/myReveal-md/classPre_CollegeEnglish4/slides/slides.html#/
 - https://isshikihugh.github.io/myReveal-md/classPre_ReadBrain/slides/slides.html#/
 - https://isshikihugh.github.io/myReveal-md/classPre_Cybernetics01/slides/slides.html#/
+- https://isshikihugh.github.io/myReveal-md/classPre_ADSPre/index.html
 - https://isshikihugh.github.io/myReveal-md/projectsTutorial_CNewbieHelper/slides/slides.html#/
 
 ## 备注给自己看
