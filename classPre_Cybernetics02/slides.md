@@ -80,7 +80,7 @@ Role of CV Tech @ AV
 - 目标识别：随航、避障、交通信号...
 - 地图构建：SLAM(simultaneous localization and mapping)...
 
-<!--s-->
+<!--v-->
 
 2D Tech
 
